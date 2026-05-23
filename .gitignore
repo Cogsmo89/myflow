@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments (recreate from requirements.txt)
+.venv/
+venv/
+env/
+
+# Local-only deployed copy lives outside the repo (C:\myflow_app, C:\myflow_venv)
+
+# Runtime / debug artifacts
+myflow_stdout.txt
+myflow_stderr.txt
+*.log
+boot.log
+startup.log
+
+# Editor / OS
+.claude/
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+desktop.ini
+
+# Unrelated content that happens to share this folder
+cannabis-research/
+cannabis-citation-master-list.csv
+cannabis-citation-summary.md
+
+# Secrets - never commit API keys or the user config
+config.toml
+*.key
